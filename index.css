@@ -430,7 +430,7 @@ ol.type-list > li:nth-child(10n+10)::before { background: linear-gradient(135deg
 }
 
 .stepper-links {
-  color: rgb(43, 33, 11);
+  color: #342508;
   text-decoration: none;
 }
 
