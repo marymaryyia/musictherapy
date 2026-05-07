@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="Music logo" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">მთავარი</a></li>
+        <li><a href="#about">შესახებ</a></li>
+        <li><a href="#illnesses">დაავადებები</a></li>
+        <li><a href="#methods">მეთოდები</a></li>
+        <li><a href="#benefits">უპირატესობები</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-vignette"></div>
+      <div class="hero-layout">
+        <div class="hero-content">
+          <div class="info-card">
+            <p>
+              მუსიკალური თერაპია არის კლინიკური და მტკიცებულებებზე დაფუძნებული მუსიკალური პროცესი, 
+              რომელიც გამოყენება თერაპიული ურთიერთობის ფარგლებში ინდივიდუალური მიზნების მისაღწევად. 
+              ეს არის უნიკალური საშუალება, დაამყარო ადამიანთან კონტაქტი საუბრისა გარეშეც, ეს კი მოახდინო მუსიკის, 
+              ხმებისა და ინსტრუმენტების საშუალებით.
+            </p>
+            <a href="#about"><button class="button">გაიგეთ მეტი</button></a>
+          </div>
+        </div>
+        <model-viewer
+          class="hero-model"
+          src="models/drumkit.glb"
+          camera-controls
+          auto-rotate
+          autoplay
+          style="width: 100%; height: 400px"
+        >
+        </model-viewer>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="about-title">რა უნდა ვიცოდეთ მუსიკალური თერაპიის შესახებ?</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+             მუსიკათერაპიის "ოქროს" ამოსავალი გახლავთ ის, რომ მასში შეუძლიათ ჩაერთონ როგორც შეზღუდული შესაძლებლობის, 
+             ასევე ტიპური განვითარების მქონე მოზარდები და ბავშვები. მუსიკათერაპია არის პასიური და 
+             აქტიური, შესაბამისად, ეს საჭიროება შეიძლება ჰქონდეს ნებისმიერ ადამიანს, პაციენტი მუსიკათერაპიის 
+             კურსს იღებს პასიური და აქტიური გზით. პასიური მსმენელი უსმენს, აკვირდება, აქტიური კი 
+             პრაქტიკულად ერთვება პროცესში. კიდევ უფრო თუ დაუკვირდებით, მუსიკალურ თერაპიაში აქტიურ 
+             პროცესში პაციენტი წამყვან როლს თამაშობს მუსიკის შექმნაში, პასიური მსმენელი კი მუსიკის მოსმენისას 
+             მხოლოდ რეაგირებს. საჭიროების მიხედვით, ზოგჯერ თერაპევტმა შეიძლება გამოიყენოს კომბინირებული 
+             მიდგომა, რომელიც მოიცავს როგორც აქტიურ ასევე პასიურ ინტერაქციას.
+          </p>
+        </div>
+         <ol class="type-list">
+          <li>მუსიკის თხზვას</li>
+          <li>სიმღერების წერას</li>
+          <li>ცეკვას</li>
+          <li>მუსიკის მოსმენას</li>
+          <li>მუსიკის განხილვას</li>
+         </ol>
+      </div>
+    </section>
+    
+    <section class="ilnesses-section" id="illnesses">
+      <div class="content-wrapper">
+        <h2 class="ilnesses-title">
+          რომელი დაავადებების და მდგომარეობების <br />
+          დროს მიმართავენ მუსიკათერაპიას?
+        </h2>
+        <div class="left-side">
+          <div class="stepper-box">
+            <div class="stepper-step">
+              <div class="stepper-circle">1</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%9A%E1%83%AA%E1%83%B0%E1%83%90%E1%83%98%E1%83%9B%E1%83%94%E1%83%A0%E1%83%98%E1%83%A1_%E1%83%93%E1%83%90%E1%83%90%E1%83%95%E1%83%90%E1%83%93%E1%83%94%E1%83%91%E1%83%90" class="stepper-links" target="_blank">ალცჰეიმერი</a>
+              </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">2</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%A3%E1%83%A2%E1%83%98%E1%83%96%E1%83%9B%E1%83%98" class="stepper-links" target="_blank">
+                  აუტიზმი
+                </a>
+              </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">3</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://mtm1984.wixsite.com/sophie/-7--8-c16si#:~:text=%E1%83%95%E1%83%94%E1%83%A0%E1%83%91%E1%83%90%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98%20%E1%83%99%E1%83%9D%E1%83%9B%E1%83%A3%E1%83%9C%E1%83%98%E1%83%99%E1%83%90%E1%83%AA%E1%83%98%E1%83%90%20%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%20%E1%83%A1%E1%83%98%E1%83%A2%E1%83%A7%E1%83%95%E1%83%98%E1%83%94%E1%83%A0%E1%83%98%20%E1%83%99%E1%83%9D%E1%83%9B%E1%83%A3%E1%83%9C%E1%83%98%E1%83%99%E1%83%90%E1%83%AA%E1%83%98%E1%83%90%20%E1%83%90%E1%83%9C%E1%83%A3%20%E1%83%99%E1%83%9D%E1%83%9B%E1%83%A3%E1%83%9C%E1%83%98%E1%83%99%E1%83%90%E1%83%AA%E1%83%98%E1%83%90,%E1%83%95%E1%83%94%E1%83%A0%E1%83%91%E1%83%90%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98%20%E1%83%99%E1%83%9D%E1%83%9B%E1%83%A3%E1%83%9C%E1%83%98%E1%83%99%E1%83%90%E1%83%AA%E1%83%98%E1%83%98%E1%83%A1%20%E1%83%9B%E1%83%98%E1%83%96%E1%83%90%E1%83%9C%E1%83%98%20%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%20%E1%83%A1%E1%83%98%E1%83%A2%E1%83%A7%E1%83%95%E1%83%98%E1%83%94%E1%83%A0%E1%83%98%20%E1%83%98%E1%83%9C%E1%83%A4%E1%83%9D%E1%83%A0%E1%83%9B%E1%83%90%E1%83%AA%E1%83%98%E1%83%98%E1%83%A1%20%E1%83%92%E1%83%90%E1%83%93%E1%83%90%E1%83%AA%E1%83%94%E1%83%9B%E1%83%90." class="stepper-links" target="_blank">
+                  ვერბალური და არავერბალური კომუნიკაციის სირთულეები
+                </a>
+              </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">4</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://mtm1984.wixsite.com/sophie/-7--8-c16si#:~:text=%E1%83%95%E1%83%94%E1%83%A0%E1%83%91%E1%83%90%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98%20%E1%83%99%E1%83%9D%E1%83%9B%E1%83%A3%E1%83%9C%E1%83%98%E1%83%99%E1%83%90%E1%83%AA%E1%83%98%E1%83%90%20%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%20%E1%83%A1%E1%83%98%E1%83%A2%E1%83%A7%E1%83%95%E1%83%98%E1%83%94%E1%83%A0%E1%83%98%20%E1%83%99%E1%83%9D%E1%83%9B%E1%83%A3%E1%83%9C%E1%83%98%E1%83%99%E1%83%90%E1%83%AA%E1%83%98%E1%83%90%20%E1%83%90%E1%83%9C%E1%83%A3%20%E1%83%99%E1%83%9D%E1%83%9B%E1%83%A3%E1%83%9C%E1%83%98%E1%83%99%E1%83%90%E1%83%AA%E1%83%98%E1%83%90,%E1%83%95%E1%83%94%E1%83%A0%E1%83%91%E1%83%90%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98%20%E1%83%99%E1%83%9D%E1%83%9B%E1%83%A3%E1%83%9C%E1%83%98%E1%83%99%E1%83%90%E1%83%AA%E1%83%98%E1%83%98%E1%83%A1%20%E1%83%9B%E1%83%98%E1%83%96%E1%83%90%E1%83%9C%E1%83%98%20%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%20%E1%83%A1%E1%83%98%E1%83%A2%E1%83%A7%E1%83%95%E1%83%98%E1%83%94%E1%83%A0%E1%83%98%20%E1%83%98%E1%83%9C%E1%83%A4%E1%83%9D%E1%83%A0%E1%83%9B%E1%83%90%E1%83%AA%E1%83%98%E1%83%98%E1%83%A1%20%E1%83%92%E1%83%90%E1%83%93%E1%83%90%E1%83%AA%E1%83%94%E1%83%9B%E1%83%90." class="stepper-links" target="_blank">
+                  ქცევითი აშლილობის დროს
+                </a>
+              </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">5</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%9E%E1%83%9D%E1%83%A1%E1%83%A2%E1%83%A2%E1%83%A0%E1%83%90%E1%83%95%E1%83%9B%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%A1%E1%83%A2%E1%83%A0%E1%83%94%E1%83%A1%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%90%E1%83%A8%E1%83%9A%E1%83%98%E1%83%9A%E1%83%9D%E1%83%91%E1%83%90" class="stepper-links" target="_blank">
+                  შფოთვა, პოსტტრამვული სტრესული აშლილობა
+                </a>
+              </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">6</div>
+
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://www.aversi.ge/ka/cnobari/2125/ludomania-avadmyofoba-tu-mavne-chveva-" class="stepper-links" target="_blank">
+                ნივთიერებებსა თუ აზარტულ თამაშებზე 
+                პათოლოგიური დამოკიდებულების დროს
+                </a>
+              </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">7</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://psp.ge/blog/post/%E1%83%92%E1%83%A3%E1%83%9A%E1%83%98%E1%83%A1-%E1%83%93%E1%83%90%E1%83%90%E1%83%95%E1%83%90%E1%83%93%E1%83%94%E1%83%91%E1%83%94%E1%83%91%E1%83%98-%E1%83%93%E1%83%90-%E1%83%9B%E1%83%90%E1%83%97%E1%83%98-%E1%83%A1%E1%83%98%E1%83%9B%E1%83%9E%E1%83%A2%E1%83%9D%E1%83%9B%E1%83%90%E1%83%A2%E1%83%98%E1%83%99%E1%83%90-%E2%80%94-%E1%83%92%E1%83%A3%E1%83%9A%E1%83%98%E1%83%A1-%E1%83%A3%E1%83%99%E1%83%9B%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%E1%83%9D%E1%83%91%E1%83%90?srsltid=AfmBOopGiNLDz1vSN_7CqkfWhucK5YPcvqoDRHc8GJiPrhSmB6SfBxwi" class="stepper-links" target="_blank">
+                  გულის დაავადებები
+                </a>
+              </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">8</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%93%E1%83%94%E1%83%9E%E1%83%A0%E1%83%94%E1%83%A1%E1%83%98%E1%83%90" class="stepper-links" target="_blank">
+                  დეპრესია
+                </a>
+              </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">9</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%99%E1%83%9A%E1%83%94%E1%83%A0%E1%83%9D%E1%83%96%E1%83%98" class="stepper-links" target="_blank">
+                  სკლეროზი
+                </a>
+                </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">10</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%A8%E1%83%90%E1%83%A5%E1%83%A0%E1%83%98%E1%83%90%E1%83%9C%E1%83%98_%E1%83%93%E1%83%98%E1%83%90%E1%83%91%E1%83%94%E1%83%A2%E1%83%98" class="stepper-links" target="_blank">
+                  შაქრიანი დიაბეტი
+                </a>
+                </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">11</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                  <a href="https://mastsavlebeli.ge/?p=20037" class="stepper-links" target="_blank">
+                   ემოციური დისრეგულაცია
+                  </a>
+              </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">12</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://dedamicis.ge/dabali-tvitshefaseba/" class="stepper-links" target="_blank">
+                  დაბალი თვითშეფასების გრძნობა</a>
+                </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">13</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://www.aversi.ge/ka/cnobari/1880/ra-iwvevs-tavis-tvinis-travmas-" class="stepper-links" target="_blank">
+                  ტვინის ტრავმული დაზიანება
+                </a>
+                </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">14</div>
+              <div class="stepper-line"></div>
+
+              <div class="stepper-title">
+                <a href="https://mkurnali.ge/skhvadaskhva/mkurnalobis-methodebi/20562-conascorobisa-da-mozraobis-koordinaciis-dargveva-insultis-simptomebi-da-riskpktorebi.html" class="stepper-links" target="_blank">
+                  მოძრაობის ან კოორდინაციის პრობლემები
+                </a>
+              </div>
+            </div>
+
+            <div class="stepper-step">
+              <div class="stepper-circle">15</div>
+
+              <div class="stepper-title">
+                <a href="https://ka.wikipedia.org/wiki/%E1%83%93%E1%83%90%E1%83%A3%E1%83%9C%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%98%E1%83%9C%E1%83%93%E1%83%
+                A0%E1%83%9D%E1%83%9B%E1%83%98" class="stepper-links" target="_blank">
+                  დაუნის სინდრომი
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="benefits-section" id="benefits">
+  <div class="benefits-container">
+    <h2 class="benefits-title">მუსიკალური თერაპიის უპირატესობები</h2>
+    <div class="benefits-layout">
+      <div class="benefits-text">
+        <p class="benefits-description">
+          მუსიკის სამკურნალო ძალის არაჩვეულებრივი თვისებები აღიარებულია მრა-ვალი საუკუნის წინ, კერძოდ, ანტიკური პერიოდიდან იწყება მუსიკალური მედიცინის, 
+          როგორც დისციპლინის, დანერგვა ადამიანის სულიერი და ფიზიკური განვითარებისათვის. მედიცინის მამა ჰიპოკრატე მუსიკათერაპიას იყენებდა პაციენტების სულიერი 
+          მდგომარეობის, შფოთისა და დეპრესიის დაძლევისთვის. ცნობილია, რომ ბრიტანეთში, მუსიკოსები ერთი საავადმყოფოდან მეორეში უკრავდნენ დაჭრილი ჯარისკაცების 
+          გასამხნევებლად. აბორიგენი ამერიკელები იყენებდნენ გალობასა და ცეკვებს ავადმყოფების განსაკურნებლად. არაბებმა პაციენტებისათვის ააშენეს საავადმყოფოები მუსიკალური 
+          ინსტრუმენტებით აღ-ჭურვილი ოთახებით. ისტორიისა და ფილოსოფიის ისეთ მოაზროვნეებს, როგორებიც იყვნენ პლატონი და არისტოტელე, სჯეროდათ, რომ მუსიკას შეუძლია 
+          განწმინდოს ადამიანების ემოციები და გონება. ეს მაგალითები იმის ნათელსაყ-ოფად, თუ როგორ იყენებდნენ მუსიკას ავადმყოფთა განსაკურნებლად კაცობრიობის ისტორიაში. 
+        </p>
+        <p class="benefits-description"></p>
+        <p class="benefits-description"></p>
+      </div>
+      <div class="benefits-images">
+        <img class="benefits-img" src="images/therapy.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="methods-section" id="methods">
+  <h2 class="methods-section-title">დასავლეთის მუსიკათერაპიის მეთოდები</h2>
+  <div class="methods-grid">
+
+    <div class="methods-row">
+      <div class="method">
+        <img src="https://images.squarespace-cdn.com/content/v1/58d91f94440243314dcf1828/1510330814741-01L3HGXTQT523ZGM4XB6/Paul-and-Clive-2.jpg">
+        <div class="method-content">
+          <p class="method-title">ნორდოფ-რობინსი</p>
+          <p class="method-description">ერთ–ერთი პოპულარული მიმართულებაა, რომელიც აქტიური 
+            თერაპიების რიცხვს მიეკუთვნება. ეს იმას ნიშნავს, რომ პროცესში თერაპევტთან ერთად აქტიურად 
+            არის ჩართული თერაპიის მიმღებიც. ის უკრავს რომელიმე მარტივ მუსიკალურ ინსტრუმენტზე, 
+            რომელზე დაკვრასაც არ სჭირდება წინასწარი მომზადება და მუსიკალური ნიჭი, თერაპევტი კი 
+            უმეტესად ფორტეპიანოზე უკრავს და მღერის.</p>
+        </div>
+      </div>
+
+      <div class="method">
+        <img src="https://voices.no/index.php/voices/article/download/1877/1641/7818">
+        <div class="method-content">
+          <p class="method-title">ჰელენ ბონის მეთოდი</p>
+          <p class="method-description">
+            1921 - 2010 იყო მუსიკალური თერაპევტი, რომელმაც შეიმუშავა „მართვადი წარმოსახვა და მუსიკა“, რომელსაც ხშირად 
+            (GIM) - Guided Imagery and Music უწოდებენ. იგი გულისხმობს მუსიკალური წარმოსახვის ყველა ფორმას ცნობიერების 
+            გაფართოებულ მდგომარეობაში, მათ შორის არა მხოლოდ ბონის მიერ შემუშავებულ კონკრეტულ ინდივიდუალურ და ჯგუფურ 
+            ფორმებს, არამედ მისი მიმდევრების მიერ შექმნილ ამ ფორმებში არსებულ ყველა ვარიაციასა და მოდიფიკაციას.“ 
+            მართვადი წარმოსახვისა და მუსიკის მეთოდი ამჟამად თერაპევტებს ასწავლიან და დედამიწის ყველა დასახლებულ კონტინენტზე პრაქტიკაში გამოიყენება.</p>
+        </div>
+      </div>
+
+      <div class="method">
+        <img src="https://toccataclassics.com/wp-content/uploads/2023/05/TOCC0627-Cover.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        <div class="method-content">
+          <p class="method-title">ემილ-ჟაკ დალკროზი და მისი ევრითმია</p>
+          <p class="method-description">
+            1892-1910 იყო ჟენევის კონსერვატორიის პედაგოგი. აქ შექმნა მუსიკალურ რიტმული აღზრდისა (რიტმული გიმნასტიკა) 
+            და შესაძლებლობების განვითარების სისტემები (ვარჯიში 
+            აბსოლუტური სმეისა და მუსიკალური იმპროვიზაციის უნარის გამომუშავე-ბისათვის). 1911-1914 რიტმული აღზრდის 
+            კურსს კითხულობდა ჯერ ჰელერაუს სპეციალურ სკოლაში, 1915-იდან კი მის მიერვე ჟენევაში დაარსებულ ინსტიტუტში. 
+            ამგვარი სკოლები შეიქმნა სტოკჰოლმში, ლონდონში, პარიზში, ვენასა და ბარსელონაში.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="methods-row">
+      <div class="method">
+        <img src="images/benenzon.png">
+        <div class="method-content">
+          <p class="method-title">ბენენზონის მეთოდი</p>
+          <p class="method-description">
+            მისი პირადი წვლილი გამოიხატა მისი ორი დიდი ინტერესის: 
+            მუსიკისა და ფსიქიატრიის გაერთიანების მცდელობაში. მან აღმოაჩინა მისი დადებითი შედეგები 
+            სერიოზული ფსიქიატრიული დაავადებების მკურნალობაში და დაიწყო მისი გამოყენების კვლევა 
+            აუტისტი და ფსიქოზური ბავშვების სამკურნალოდ. 1966 წელს მან დააარსა „მუსიკალური თერაპიის 
+            სკოლა“ ბუენოს-აირესში, სალვადორის უნივერსიტეტის მედიცინის ფაკულტეტზე. მისი კონცეფცია ISO 
+            (ხმის იდენტობა) ითვლება საწყის წერტილად ხმისა და მუსიკის, ვოკალური და ინსტრუმენტული აღქმასა 
+            და გამოხატვაში ჩართული პროცესების სირთულის, ასევე ადამიანისა და მუსიკალური ინსტრუმენტების 
+            ურთიერთობის გასაგებად. დღეს ის მსოფლიოში მუსიკალური თერაპიის ერთ-ერთი წამყვანი ავტორიტეტია.</p>
+        </div>
+      </div>
+
+      <div class="method">
+        <img src="https://www.oake.org/wp-content/uploads/2014/04/Kodaly-with-roses-children.jpg">
+        <div class="method-content">
+          <p class="method-title">ზოლტან კოდაის მეთოდი</p>
+          <p class="method-description">
+            დიდი უნგრელი კომპოზიტორი, მასწავლებელი 
+            და ფილოსოფოსი თვლიდა, რომ მუსიკის სწავლება შესაძლებელია ნებისმიერი კულტურის ხალხური 
+            რეპერტუარის გამოყენებით. მისი თერაპიული ეფექტი ხელს უწყობს ინტელექტუალური და სოციალური 
+            უნარების განვითარებას. მისთვის სწორედ საგუნდო სიმღერაა სოციალური უნარების განვითარების უდიდესი 
+            შესაძლებლობა. გუნდში სიმღერა, მუსიკალურ ინსტრუმენტზე დაკვრა და მუსიკის მოსმენა ადამიანის სულისთვის 
+            საგანმანათლებლო აქტივობას წარმოადგენს. სწორედ მუსიკა აძლევს ადამიანებს საშუალებას, იპოვონ მეგობრები და 
+            შეინარჩუნონ იდენტობა. ინსტრუმენტებზე დაკვრის სწავლება შეიძლება ადამიანს თავიდან ააცილოს სოციალური პრობლემები. 
+            </br>კოდაის მეთოდის საფუძველია:</p>
+            <ol class="method-description" style="padding: 16px; margin-top: 5px;">
+              <li>გუნდში სიმღერა</li>
+              <li>ინსტრუმენტზე დაკვრა</li>
+              <li>მუსიკის მოსმენა</li>
+            </ol>
+        </div>
+      </div>
+      <div class="method">
+        <img src="https://i.pinimg.com/1200x/a5/ca/8f/a5ca8fc737e09bf8cd404fc11c7dd2ee.jpg">
+        <div class="method-content">
+          <p class="method-title">კარლ ორფის "შულვერკი"</p>
+          <p class="method-description">
+            მარტივად შეიძლება ითქვას, რომ იგი ეფუძნება თამაშის ელემენტებს, რომლებიც ბავშვებს — 
+            მიმღებებს ეხმარება საკუთარი თავის შეცნობაში. ამ მეთოდს ასევე მოიხსე-ნიებენ, როგორც 
+            „მუსიკა ბავშვებისთვის“. მისი იდეები და შთაგონებები საფუძვლად უდევს Orff-Schulwerk მეთოდს,
+            რომელიც ერთგვარად მუსიკათერაპიის საფუძველსაც წარმოადგენს. ეს მეთოდი მოიცავს 
+            როგორც მუსიკის ელემენტარულ თეორიას, თამაშს, სიმღერასა და ცეკვას, ასევე წარმოადგენს
+            მასწავლებლებისთვის სასწავლო პროგრამასაც. ორფის მეთოდი საუკეთესოდ მუშაობს ყველა ასაკის
+            ბავშვებთან და ასევე ჩვილებთანაც. საბოლოო ჯამში, იგი წარმოადგენს ინსტრუმენტს, რომელიც 
+            ადრეული ასაკიდან ბავშვებს ეხმარება მუსიკის გაგებასა და გააზრებაში.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="detail-section">
+  <div class="detail-container">
+    <h2 class="detail-title">გეშტალტის თეორია მუსიკის თერაპიაში</h2>
+    <div class="detail-layout">
+
+      <div class="detail-images">
+        <img class="detail-img" src="https://i.pinimg.com/736x/da/ab/d0/daabd06e1f83c975632f0d7ef18dbd4a.jpg">
+        <img class="detail-img" src="https://i.pinimg.com/736x/b0/27/47/b0274717ca549714c026a9ab6cb07e06.jpg">
+      </div>
+
+      <div class="detail-text">
+        <p class="detail-description">
+          რა არის გეშტალტი? „გეშტალტი“ ქართულად მთლიანობას, სისრულეს ნიშნავს. იგი ფართო მნიშვნელობით 
+          გამოიყენება ინტეგრირებულ კონტექსტში. გეშტალტ მეთოდი/თერაპია თანამედროვე ფსიქოთერაპიის მიმართულებაა. 
+          მას იყენებენ ჯგუფურ, ინდივიდუალურ, ოჯახის, წყვილების კონსულტირებასა და ფსიქოთერაპიაში. გეშტალტის თერაპია 
+          მიმართულია პიროვნული განვითარებისა და ზრდის პროცესისაკენ. მეთოდის საფუძველია ადამიანის მიმართ ჰოლისტური, 
+          ანუ მთლიანობაში დანახვა. გეშტალტ თერაპია „ნაწილებად დაშლილი პიროვნების“ გამთლიანებას ისახავს მიზნად. 
+        </p>
+        <p class="detail-description">
+          იგი ეხმარება პიროვნებას შფოთვის, პანიკის, ფობიის, დეპრესიის, დეპერსონალიზაციის, დერეალიზაციის განცდების დაძლევაში.
+          გეშტალტ თეორიის ფუძემდებელია ფრიდრიხ სოლომონ პერლსი. ამ თეორიას ბევრი აქვს საერთო ფსიქოანალიზთან, აწმყოზე ორიენტაციას, 
+          აქ და ამჟამად ყოფნით რეალიზაციასთან. იგი ეგზისტენციალური მიმდინარეობის მოდელია და ახლოს დგას ჰაიდეგერის, მასლოუს თეორიებთან, 
+          გეშტალტ თეორიაზე გავლენა მოახდინა ასევე აღმოსავლურმა ფილოსოფიურმა მოძღვრებამ - ძენ-ბუდიზმმა: ადამიანის ბუნების სრულყოფა, 
+          საკუთარი სუბსტანციის წვდომა, სამყაროსთან ჰარმონიულობის იდეები ამ ფილოსოფიიდან მომდინარეობს.
+        </p>
+        <p class="detail-description">
+          გეშტალტის მეთოდი ამ ფრაგმენტების გამთლიანებაზე მუშაობაა, მარტივი ვოკალური თუ ინსტრუმენტული სავარჯიშოებით. გეშტალტი ამბობს, რომ 
+          მელოდია არის ნაწილების ჯამი და ჯამი კი უდიდეს მნიშვნელობას ნაწილებს ანიჭებს, ნაწილები სწორედ მთლიანობიდან, სისრულიდან იბადება, ეს 
+          პროცესი კი მრავალფეროვან ემოციებს ბადებს. გეშტალტის პიროვნების აქტუალიზაციის ცნებასთან ყველაზე ახლოს დგას აბრაამ მასლოუს თეორია. 
+          მუსიკის თერაპიაში მასლოუ აღიარებს შესრულების, დაკვრის, სიმღერის, როგორც მიმღების-პაციენტის თვითაქტუ-ალიზაციის შესაძლებლობას. 
+          პერლსის მიერ შემუშავებული გეშტალტ-მეთოდი მასლოუსთან პირდაპირ თანხმობაშია - ორივე ფსიქოლოგის მეთოდის საფუძვე-ლი რწმენას ეფუძნება. 
+          რწმენა კი თვითაქტუალიზაციისა და პერსონალიზების უმთავრესი საყრდენია. ამიტომაც დგას გეშტალტი ძენ-ბუდიზმის პრაქტიკულ მოძღვრებასთან.
+          გარდა ამისა გეშტალტის 20-მდე სხვადასხვა ტექნიკა არსებობს, რომელიც შეგიძლიათ იხილოთ <a href="https://aev.ge/geshtalt-therapiis-teqnikebi/" class="techniques-link">ბმულზე.</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+    
+
+   </body>
+</html>
